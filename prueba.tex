@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[spanish]{babel}
+\title{Apuntes de programación lineal}
+\author{CypressKusher}
+
+
+\begin{document}
+
+
+
+\maketitle
+\section{Introducción}
+\label{sec:introduccion}
+
+La forma estándar de un problema de progamación lineal es:\\
+Dados una matriz $A$ y vectores $b,c$, maximizar $c^{T}x$ sujeto a
+$Ax\leq b$.
+
+\begin{tabular}{|c|c|c|}
+  \hline
+  &A&B\\
+  \hline
+  Máquina 1&1&2\\
+  Máquina 2&1&1\\
+  \hline
+\end{tabular}
+
+\begin{equation*}
+  \label{eq:2}
+ A= \begin{pmatrix}
+    a&1&2\\
+    3&-1&5
+    
+  \end{pmatrix}
+\end{equation*}
+\midskip
+\begin{equation}
+  \label{eq:2}
+ A= \begin{pmatrix}
+    a&1&2\\
+    3&-1&5
+  \end{pmatrix}
+\end{equation}
+Para hacer saltos dentro de ecuacoines se usan los comandos smallskip,
+bigskip, midskipe.
+Latex divide la palabra según la optimizacion de espacio que creea
+mejor, por lo que aveces divide las palabras sin tener mucho sentido
+en español. El paquete babael spanish.
+
+
+\end{document}
